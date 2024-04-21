@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(243, 229, 216);
+    box-sizing: border-box;
+
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.card {
+    max-width: 615px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 35px;
+    margin: auto auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.img img {
+    width: 100%;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.heading {
+    margin: 0px;
+    padding-top: 20px;
+    font-size: 32px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.prepare {
+    max-width: 550px;
+    min-height: 150px;
+    background-color: rgb(255, 247, 252);
+    padding: 20px;
+
+}
+
+.pre-head {
+    margin: 0;
+}
+
+.prepare ul {
+    line-height: 2;
+    padding: 20px;
+    margin: 0;
+}
+
+.prepare ul li::marker {
+    color: rgb(102, 59, 80);
+    font-size: 10px;
+}
+
+.prepare ul li span {
+    position: relative;
+    left: 15px;
+}
+
+.prepare h3 {
+    color: rgb(102, 59, 80);
+}
+
+.in-head {
+    color: rgb(132, 67, 49);
+    margin-bottom: 0px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ingredient ul {
+    line-height: 2;
+    padding: 20px;
+    margin: 0;
+
+}
+
+.ingredient ul li::marker {
+    color: rgb(132, 67, 49);
+    font-size: 10px;
+}
+
+.ingredient ul li span {
+    position: relative;
+    left: 15px;
+}
+
+hr {
+    border: 1px solid rgb(232, 232, 232);
+}
+
+
+.Instructions ol {
+    /* line-height: 2; */
+    padding: 20px;
+    margin: 0;
+}
+
+.Instructions ol li::marker {
+    color: rgb(132, 67, 49);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.Instructions ol li span {
+    position: relative;
+    left: 15px;
+}
+
+.Instructions ol li:not(:first-child) {
+    margin-top: 15px;
+}
+
+
+/* .nutrition-facts .fact .fact-label{
+    m
+    
+  } */
+
+.fact {
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+
+.fact-label {
+    display: inline-block;
+    /* width: 300px; Adjust this width as needed */
+    font-weight: bold;
+    margin-left: 5%;
+    width: 50%;
+}
+
+.fact-value {
+    display: inline-block;
+    /* margin-left: 100px; */
+    color: rgb(132, 67, 49);
+    font-weight: 700;
+
+}
