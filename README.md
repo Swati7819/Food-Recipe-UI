@@ -3,10 +3,15 @@
 This project is a simple web page showcasing a recipe for a simple omelette. It includes information about the ingredients, preparation time, cooking instructions, and nutritional facts.
 
 ## Table of Contents
+- [Preview](#preview)
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+
+##Preview
+![Screenshot (1481)](https://github.com/Swati7819/Food-Recipe-UI/assets/132447787/db7d1b42-f86b-4607-a17e-71102040f9eb)
+
 
 ## Description
 
